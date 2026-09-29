@@ -1,0 +1,55 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/EqualsMethodLabTest.java",
+      "testCases": [
+        {
+          "methodName": "implementEqualsMethodTest1",
+          "label": "object equals itself",
+          "description": "Verifies that a SampleClass object correctly identifies itself as equal when compared using the equals method."
+        },
+        {
+          "methodName": "implementEqualsMethodTest2",
+          "label": "objects with same values are equal",
+          "description": "Checks that two SampleClass objects with identical field values are considered equal."
+        },
+        {
+          "methodName": "implementEqualsMethodTest3",
+          "label": "objects with different 'a' value are not equal",
+          "description": "Ensures that two SampleClass instances differing in field 'a' are evaluated as not equal."
+        },
+        {
+          "methodName": "implementEqualsMethodTest4",
+          "label": "objects with different 'b' value are not equal",
+          "description": "Ensures that two SampleClass instances differing in field 'b' are evaluated as not equal."
+        },
+        {
+          "methodName": "implementEqualsMethodTest5",
+          "label": "object compared to null is not equal",
+          "description": "Confirms that SampleClass.equals returns false when compared to null."
+        },
+        {
+          "methodName": "toStringTest1",
+          "label": "toString contains expected values (test 1)",
+          "description": "Verifies that the SampleClass.toString output includes the correct values for a and b."
+        },
+        {
+          "methodName": "toStringTest2",
+          "label": "toString contains expected values (test 2)",
+          "description": "Checks that the toString output contains the assigned values while excluding incorrect ones."
+        },
+        {
+          "methodName": "toStringTest3",
+          "label": "toString contains expected values (test 3)",
+          "description": "Validates that toString properly includes the updated fields and omits values that do not match."
+        },
+        {
+          "methodName": "toStringTest4",
+          "label": "toString contains expected values (test 4)",
+          "description": "Ensures that toString reflects the object's fields accurately, including boolean formatting."
+        }
+      ]
+    }
+  ]
+}
